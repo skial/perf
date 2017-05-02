@@ -1,0 +1,9 @@
+-cp src
+-cp tests
+
+-dce full
+-D analyzer-optimize
+
+-main Main
+
+-python bin/perf.py
